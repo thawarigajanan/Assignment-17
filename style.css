@@ -1,0 +1,84 @@
+.body {
+    background-image: radial-gradient(circle farthest-corner at 48.4% 47.5%, rgba(122, 183, 255, 1) 0%, rgba(21, 83, 161, 1) 90%);
+}
+
+.cards-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.heading {
+    text-align: center;
+    color: #E6E6FA;
+    font-size: 33px;
+    border-bottom: 5px;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 60px #1f4c65;
+}
+
+.card {
+    width: 330px;
+    height: 605px;
+    margin: 0px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.image {
+    border-radius: 10px;
+    width: 300px;
+    margin: 15px;
+    m
+}
+
+.small-image {
+    height: 100px;
+    position: relative;
+    bottom: 65px;
+    left: 35px;
+    border-radius: 10px;
+}
+
+.play-button {
+    height: 60px;
+    position: relative;
+    left: 155px;
+    bottom: 90px;
+}
+
+.card-title {
+    color: grey;
+    position: relative;
+    bottom: 30px;
+    left: 120px;
+}
+
+.rating {
+    height: 100px;
+    position: relative;
+    bottom: 190px;
+    left: 108px;
+}
+
+.detail {
+    position: relative;
+    font-weight: bold;
+    bottom: 50px;
+    color: black;
+}
+
+.cards-container-info {
+    margin-top: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.card :hover{
+    transform: scale(1.1);
+}
